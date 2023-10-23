@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>EXCSLA.Core.Common.Entities</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>H.E. Collins</Authors>
+    <Company>Executive Computer Systems, LLC</Company>
+    <Product>EXCSLA.Core.Common.Entities</Product>
+    <Description>A Domain Driven shared library, containing basic components for setting up a domain.</Description>
+    <PackageDescription>
+      A Domain Driven shared library, containing basic components for setting up a domain. Contains base classes for AggregateRoots, Entities, and value objects. 
+      These each have proper overrides for Equals, ==, and !=. 
+      This package also includes interfaces for setting up domain events as well as interfaces for using a repository pattern. 
+      This is an open source project please feel free to do a pull request on the github repo.
+    </PackageDescription>
+    <RepositoryUrl>https://github.com/MasterSkriptor/EXCSLA.Core.Common</RepositoryUrl>
+    <PackageTags>DDD; DotNet; Core; Domain Driven Design; Repository; Executive Computer Systems</PackageTags>
+    <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
